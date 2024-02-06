@@ -1,0 +1,8 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {},
+  "devDependencies": {
+    "turbo": "^1.12.2"
+  }
+}
