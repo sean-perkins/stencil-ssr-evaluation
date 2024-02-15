@@ -13,7 +13,6 @@ export default async function Home() {
     .replace(/class="[^"]*"/, "");
 
   const MyComponent = dynamic(() => import("./proxies-2"), {
-    // ssr: false,
     loading: () => (
       <span dangerouslySetInnerHTML={{ __html: updatedHtml }}></span>
     ),
