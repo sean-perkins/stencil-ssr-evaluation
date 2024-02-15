@@ -1,9 +1,23 @@
-"use client";
-
+import dynamic from "next/dynamic";
 import styles from "./page.module.css";
-import { MyComponent } from "./proxies";
 
-export default function Home() {
+import { renderToString } from "../../../../packages/ui/hydrate";
+
+export default async function Home() {
+  const { html } = await renderToString(
+    '<my-component first="John" last="Doe"></my-component>'
+  );
+
+  const updatedHtml = html
+    .replace(/data-stencil-build="[^"]*"/, "")
+    .replace(/class="[^"]*"/, "");
+
+  const MyComponent = dynamic(() => import("./proxies-2"), {
+    // ssr: false,
+    loading: () => (
+      <span dangerouslySetInnerHTML={{ __html: updatedHtml }}></span>
+    ),
+  });
   return (
     <main className={styles.main}>
       <MyComponent first="John" last="Doe" />
