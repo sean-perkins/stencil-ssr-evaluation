@@ -14,7 +14,8 @@
     "react-dom": "^18",
     "next": "14.1.0",
     "ui": "workspace:*",
-    "@lit/react": "^1.0.3"
+    "@lit/react": "^1.0.3",
+    "@stencil/react-output-target": "0.0.1-dev.11712339520.1220c57d"
   },
   "devDependencies": {
     "typescript": "^5",

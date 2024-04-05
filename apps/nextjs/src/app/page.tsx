@@ -12,7 +12,7 @@ export default async function Home() {
     .replace(/data-stencil-build="[^"]*"/, "")
     .replace(/class="[^"]*"/, "");
 
-  const MyComponent = dynamic(() => import("./proxies-2"), {
+  const MyComponent = dynamic(() => import("./components/MyComponent"), {
     loading: () => (
       <span dangerouslySetInnerHTML={{ __html: updatedHtml }}></span>
     ),

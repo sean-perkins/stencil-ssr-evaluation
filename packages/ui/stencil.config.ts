@@ -25,17 +25,13 @@ export const config: Config = {
     },
     // Official Stencil React Output Target (with Next.js)
     reactOutputTarget({
-      componentCorePackage: 'ui',
-      proxiesFile: '../../apps/nextjs/src/app/proxies.ts',
-      includeImportCustomElements: true,
-      includeDefineCustomElements: false
+      outDir: '../../apps/nextjs/src/app/components/',
+      esModules: true,
+      experimentalUseClient: true
     }),
     // Official Stencil React Output Target (with Remix)
     reactOutputTarget({
-      componentCorePackage: 'ui',
-      proxiesFile: '../../apps/remix/app/proxies.ts',
-      includeImportCustomElements: true,
-      includeDefineCustomElements: false
+      outDir: '../../apps/remix/app/',
     }),
     // Community Stencil React Output Target (with Next.js)
     communityReactOutputTarget({
