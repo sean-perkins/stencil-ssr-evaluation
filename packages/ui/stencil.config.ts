@@ -1,8 +1,5 @@
 import { Config } from '@stencil/core';
 import { reactOutputTarget } from '@stencil/react-output-target';
-
-import { reactOutputTarget as communityReactOutputTarget } from '@stencil-community/react-output-target';
-
 export const config: Config = {
   namespace: 'components',
   outputTargets: [
@@ -33,10 +30,6 @@ export const config: Config = {
     reactOutputTarget({
       outDir: '../../apps/remix/app/',
     }),
-    // Community Stencil React Output Target (with Next.js)
-    communityReactOutputTarget({
-      outputPath: '../../apps/nextjs/src/app/proxies-2.ts'
-    })
   ],
   testing: {
     browserHeadless: "new",

@@ -34,7 +34,6 @@
     "ts-morph": "^21.0.1"
   },
   "devDependencies": {
-    "@stencil-community/react-output-target": "^0.0.4",
     "@stencil/react-output-target": "0.0.1-dev.11712342703.1f8a1cde",
     "@types/jest": "^29.5.6",
     "@types/node": "^16.18.11",

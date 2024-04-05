@@ -14,9 +14,6 @@ importers:
 
   apps/nextjs:
     dependencies:
-      '@lit/react':
-        specifier: ^1.0.3
-        version: 1.0.3(@types/react@18.2.54)
       '@stencil/react-output-target':
         specifier: 0.0.1-dev.11712342703.1f8a1cde
         version: 0.0.1-dev.11712342703.1f8a1cde(@stencil/core@4.12.1)(@types/react@18.2.54)
@@ -122,9 +119,6 @@ importers:
         specifier: ^21.0.1
         version: 21.0.1
     devDependencies:
-      '@stencil-community/react-output-target':
-        specifier: ^0.0.4
-        version: 0.0.4
       '@stencil/react-output-target':
         specifier: 0.0.1-dev.11712342703.1f8a1cde
         version: 0.0.1-dev.11712342703.1f8a1cde(@stencil/core@4.12.1)(@types/react@18.2.54)
@@ -1349,14 +1343,6 @@ packages:
     resolution: {integrity: sha512-Lg3PnLp0QXpxwLIAuuJboLeRaIhrgJjeuh797QADg3xz8wGLugQOS5DpsE8A6i6Adgzf+bacllkKZG3J0tGfDw==}
     dev: true
 
-  /@lit/react@1.0.3(@types/react@18.2.54):
-    resolution: {integrity: sha512-RGoPMrAPbFjQFXFbfmYdotw000DyChehTim+d562HRXvFGw//KxouI8jNOcc3Kw/1uqUA1SJqXFtKKxK0NUrww==}
-    peerDependencies:
-      '@types/react': 17 || 18
-    dependencies:
-      '@types/react': 18.2.54
-    dev: false
-
   /@lit/react@1.0.4(@types/react@18.2.54):
     resolution: {integrity: sha512-6HBvk3AwF46z17fTkZp5F7/EdCJW9xqqQgYKr3sQGgoEJv0TKV1voWydG4UQQA2RWkoD4SHjy08snSpzyoyd0w==}
     peerDependencies:
@@ -1906,10 +1892,6 @@ packages:
     resolution: {integrity: sha512-V4BG07kuYSUkTCSBHG8G8TNhM+F19jXFWnQtzj+we8DrkpSBCee9Z3Ms8yiGer/dlmhe35/Xdgyo3/0rQKg7YA==}
     dependencies:
       '@sinonjs/commons': 3.0.1
-    dev: true
-
-  /@stencil-community/react-output-target@0.0.4:
-    resolution: {integrity: sha512-HjA4+4E74HBPjOUeUzbL354/D/USX16YB7OUrTPsHdUrGro5Rx/kaKODjm50dRqbyTanvN/QXBJQp4de7y1d1A==}
     dev: true
 
   /@stencil/core@4.12.1:
