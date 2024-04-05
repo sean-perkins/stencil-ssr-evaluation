@@ -9,10 +9,6 @@
 
 import { createComponent } from '@stencil/react-output-target/runtime';
 import React from 'react';
-/**
- * Sean:
- *  I had to remove the `dist` from the generated import path. Need to investigate why that is happening in a pnpm workspace.
- */
 import { MyComponent as MyComponentElement, defineCustomElement as defineMyComponent } from "ui/components/my-component.js";
 
 type MyComponentEvents = NonNullable<unknown>;

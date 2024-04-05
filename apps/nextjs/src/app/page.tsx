@@ -16,6 +16,7 @@ export default async function Home() {
     loading: () => (
       <span dangerouslySetInnerHTML={{ __html: updatedHtml }}></span>
     ),
+    ssr: false
   });
   return (
     <main className={styles.main}>

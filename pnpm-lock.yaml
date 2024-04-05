@@ -18,8 +18,8 @@ importers:
         specifier: ^1.0.3
         version: 1.0.3(@types/react@18.2.54)
       '@stencil/react-output-target':
-        specifier: 0.0.1-dev.11712339520.1220c57d
-        version: 0.0.1-dev.11712339520.1220c57d(@stencil/core@4.12.1)(@types/react@18.2.54)
+        specifier: 0.0.1-dev.11712342703.1f8a1cde
+        version: 0.0.1-dev.11712342703.1f8a1cde(@stencil/core@4.12.1)(@types/react@18.2.54)
       next:
         specifier: 14.1.0
         version: 14.1.0(react-dom@18.2.0)(react@18.2.0)
@@ -126,8 +126,8 @@ importers:
         specifier: ^0.0.4
         version: 0.0.4
       '@stencil/react-output-target':
-        specifier: 0.0.1-dev.11712339520.1220c57d
-        version: 0.0.1-dev.11712339520.1220c57d(@stencil/core@4.12.1)(@types/react@18.2.54)
+        specifier: 0.0.1-dev.11712342703.1f8a1cde
+        version: 0.0.1-dev.11712342703.1f8a1cde(@stencil/core@4.12.1)(@types/react@18.2.54)
       '@types/jest':
         specifier: ^29.5.6
         version: 29.5.12
@@ -1917,8 +1917,8 @@ packages:
     engines: {node: '>=16.0.0', npm: '>=7.10.0'}
     hasBin: true
 
-  /@stencil/react-output-target@0.0.1-dev.11712339520.1220c57d(@stencil/core@4.12.1)(@types/react@18.2.54):
-    resolution: {integrity: sha512-Jc9ZkuMO4csrSBk7iWGlpNgzX0PTXFZBiOqedTSQn+xIb6ysdBGn/rOXAqkFLYMuGzRv213CIxRFIVJ8henHAw==}
+  /@stencil/react-output-target@0.0.1-dev.11712342703.1f8a1cde(@stencil/core@4.12.1)(@types/react@18.2.54):
+    resolution: {integrity: sha512-1ziNr8NMZ40eDcLcYpYRhDr5Wq+hPCTEX4SzbmFR/VnzO7X3grT5Uom0u0XNt0ACHBli7tP1SsmRc1ElgLhZWQ==}
     peerDependencies:
       '@stencil/core': '>=3 || >= 4.0.0-beta.0 || >= 4.0.0'
     dependencies:
